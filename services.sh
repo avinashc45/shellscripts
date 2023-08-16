@@ -1,7 +1,5 @@
 #!/bin/bash
-
-
-services=("httpd" "sshd")
+services=("httpd" "sshd" "jenkins")
 
 for service in "${services[@]}"
 do
